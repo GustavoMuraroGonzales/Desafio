@@ -7,8 +7,8 @@ body {
     height: 500px;
     padding: 16px;
     background-color: aliceblue;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
-    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
     margin: 100px auto;
 }
 
@@ -24,6 +24,64 @@ body {
 }
 
 .tituloesubtitulo {
-    border: 1px solid green;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 25px;
 }
+
+ .tituloesubtitulo h4 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 18px;
+ }
+
+ input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.form-login form {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+button {
+    background-color: #181D3B;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 320px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.forcheckbox {
+   display: inline-block;
+   text-align: center;
+   margin-left: 0px;
+   width: 300px;
+   flex-direction: row;
+}
+
+.createaccount {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+    
+
+
+
+
+
+
 
