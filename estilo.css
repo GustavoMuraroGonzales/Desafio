@@ -1,3 +1,29 @@
 body {
     background-image: linear-gradient( to right bottom, #8264D4, #919EFD )
 }
+
+.container-login {
+    width: 400px;
+    height: 500px;
+    padding: 16px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    border-radius: 15px;
+    margin: 100px auto;
+}
+
+.header-container {
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    height: 35px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.tituloesubtitulo {
+    border: 1px solid green;
+}
+
