@@ -77,6 +77,35 @@ button {
     display: flex;
     justify-content: center;
 }
+
+.olhopassword {
+    position: absolute;
+    top: 415px;
+    margin-left: 285px;
+    cursor: pointer;
+}
+
+.forgotpassword {
+    position: absolute;
+    top: 380px;
+    margin-left: 220px;
+    font-size: 13px;
+    color: #827f79;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #181d3b9c;
+}
+
+a {
+    font-size: 15px;
+    color: #181D3B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
     
 
 
