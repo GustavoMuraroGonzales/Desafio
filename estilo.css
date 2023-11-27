@@ -65,12 +65,20 @@ button {
 }
 
 .forcheckbox {
-   display: inline-block;
-   text-align: center;
-   margin-left: 0px;
-   width: 300px;
+   display: inherit;
+   text-align: left;
+   margin-left: -106px;
+   width: 500px;
    flex-direction: row;
 }
+
+.forcheckbox label{
+    display: inherit;
+    text-align: left;
+    margin-left: -100px;
+    width: 500px;
+    flex-direction: row;
+ }
 
 .createaccount {
     margin-top: 20px;
